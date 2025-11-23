@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+ENV/
+
+# Models
+*.pkl
+
+# Data files
+*.csv
+*.xlsx
+
+# Temporary files
+~$*
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Documents (keep only essential ones)
+*.docx
+*.ppt
+*.pptx
+*.pdf
+
+# Images (keep generated figures)
+*.png
+!Figures/*.png
